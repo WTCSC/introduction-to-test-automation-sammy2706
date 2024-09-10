@@ -33,6 +33,7 @@ def test_is_even():
   """
   assert math_it_up.is_even(2) == True
   assert math_it_up.is_even(7) == False
+  assert math_it_up.is_even(-2) == True
  
 
 def test_is_odd():
@@ -41,6 +42,7 @@ def test_is_odd():
   """
   assert math_it_up.is_odd(43) == True
   assert math_it_up.is_odd(2) == False
+  assert math_it_up.is_odd(-3) == True
   
 
 def test_mean():
